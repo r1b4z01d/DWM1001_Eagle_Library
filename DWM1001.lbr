@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.2.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="DWM1001">
+<rectangle x1="0" y1="0" x2="19.13" y2="26.13" locked="yes" layer="21"/>
+<smd name="17" x="0" y="1.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="16" x="0" y="2.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="15" x="0" y="3.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="14" x="0" y="4.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="13" x="0" y="5.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="12" x="0" y="6.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="11" x="0" y="7.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="10" x="0" y="8.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="9" x="0" y="9.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="8" x="0" y="10.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="7" x="0" y="11.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="6" x="0" y="12.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="5" x="0" y="13.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="4" x="0" y="14.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="3" x="0" y="15.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="2" x="0" y="16.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="1" x="0" y="17.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="18" x="19.13" y="1.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="19" x="19.13" y="2.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="20" x="19.13" y="3.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="21" x="19.13" y="4.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="22" x="19.13" y="5.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="23" x="19.13" y="6.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="24" x="19.13" y="7.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="25" x="19.13" y="8.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="26" x="19.13" y="9.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="27" x="19.13" y="10.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="28" x="19.13" y="11.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="29" x="19.13" y="12.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="30" x="19.13" y="13.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="31" x="19.13" y="14.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="32" x="19.13" y="15.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="33" x="19.13" y="16.15" dx="2.54" dy="0.635" layer="1"/>
+<smd name="34" x="19.13" y="17.15" dx="2.54" dy="0.635" layer="1"/>
+<text x="-1.27" y="17.78" size="1.27" layer="21" align="center-right">.</text>
+<dimension x1="0" y1="0" x2="19.13" y2="0" x3="9.565" y3="-6.35" textsize="1.27" textratio="6" layer="21"/>
+<dimension x1="0" y1="0" x2="0" y2="26.13" x3="-7.62" y3="13.065" textsize="1.27" textratio="6" layer="21"/>
+<dimension x1="17.78" y1="17.78" x2="20.32" y2="17.78" x3="19.05" y3="19.05" textsize="1.27" textratio="6" layer="21"/>
+<rectangle x1="0" y1="0" x2="19.13" y2="17.65" layer="21"/>
+<dimension x1="19.13" y1="0" x2="19.13" y2="17.65" x3="26.67" y3="8.825" textsize="1.27" textratio="6" layer="21"/>
+<text x="3.81" y="21.59" size="1.27" layer="21" ratio="6">NON-GROUND</text>
+<text x="21.59" y="21.59" size="1.27" layer="21" ratio="6">NON-GROUND</text>
+</package>
+</packages>
+<symbols>
+<symbol name="DWM1001">
+<pin name="P1-GND" x="-27.94" y="-7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="P2-SWD_CLK" x="-27.94" y="-10.16" length="middle" direction="in" rot="R180"/>
+<pin name="P3-SWD_DIO" x="-27.94" y="-12.7" length="middle" rot="R180"/>
+<pin name="P4-GPIO_10" x="-27.94" y="-15.24" length="middle" rot="R180"/>
+<pin name="P5-GPIO_9" x="-27.94" y="-17.78" length="middle" rot="R180"/>
+<pin name="P6-GPIO_12" x="-27.94" y="-20.32" length="middle" rot="R180"/>
+<pin name="P7-GPIO_14" x="-27.94" y="-22.86" length="middle" rot="R180"/>
+<pin name="P8-GPIO_22" x="-27.94" y="-25.4" length="middle" rot="R180"/>
+<pin name="P9-GPIO_31" x="-27.94" y="-27.94" length="middle" rot="R180"/>
+<pin name="P10-GPIO_30" x="-27.94" y="-30.48" length="middle" rot="R180"/>
+<pin name="P11-GND" x="-27.94" y="-33.02" length="middle" direction="pwr" rot="R180"/>
+<pin name="P12-VCC" x="-27.94" y="-35.56" length="middle" direction="pwr" rot="R180"/>
+<pin name="P13-GPIO_27" x="-27.94" y="-38.1" length="middle" rot="R180"/>
+<pin name="P14-I2C_SDA" x="-27.94" y="-40.64" length="middle" rot="R180"/>
+<pin name="P15-I2C_SCL" x="-27.94" y="-43.18" length="middle" direction="out" rot="R180"/>
+<pin name="P16-GPIO_23" x="-27.94" y="-45.72" length="middle" rot="R180"/>
+<pin name="P17-GPIO_13" x="-27.94" y="-48.26" length="middle" rot="R180"/>
+<pin name="P18-UART_RX" x="-7.62" y="-48.26" length="middle" direction="in"/>
+<pin name="P19-READY" x="-7.62" y="-45.72" length="middle" direction="out"/>
+<pin name="P20-UART_TX" x="-7.62" y="-43.18" length="middle" direction="out"/>
+<pin name="P21-GPIO_1" x="-7.62" y="-40.64" length="middle"/>
+<pin name="P22-GPIO_0" x="-7.62" y="-38.1" length="middle"/>
+<pin name="P23-GPIO_15" x="-7.62" y="-35.56" length="middle"/>
+<pin name="P24-GND" x="-7.62" y="-33.02" length="middle" direction="pwr"/>
+<pin name="P25-GPIO_8" x="-7.62" y="-30.48" length="middle"/>
+<pin name="P26-SPIS_MISO" x="-7.62" y="-27.94" length="middle" direction="in"/>
+<pin name="P27-SPIS_MOSI" x="-7.62" y="-25.4" length="middle" direction="out"/>
+<pin name="P28-SPIS_CLK" x="-7.62" y="-22.86" length="middle" direction="in"/>
+<pin name="P29-SPIS_CSN" x="-7.62" y="-20.32" length="middle" direction="in"/>
+<pin name="P30-GPIO_3" x="-7.62" y="-17.78" length="middle"/>
+<pin name="P31-GPIO_2" x="-7.62" y="-15.24" length="middle"/>
+<pin name="P32-BT_WAKE_UP" x="-7.62" y="-12.7" length="middle" direction="in"/>
+<pin name="P33-RESETN" x="-7.62" y="-10.16" length="middle" direction="in"/>
+<pin name="P34-GND" x="-7.62" y="-7.62" length="middle" direction="pwr"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DWM1001">
+<gates>
+<gate name="G$1" symbol="DWM1001" x="17.78" y="27.94"/>
+</gates>
+<devices>
+<device name="" package="DWM1001">
+<connects>
+<connect gate="G$1" pin="P1-GND" pad="1"/>
+<connect gate="G$1" pin="P10-GPIO_30" pad="10"/>
+<connect gate="G$1" pin="P11-GND" pad="11"/>
+<connect gate="G$1" pin="P12-VCC" pad="12"/>
+<connect gate="G$1" pin="P13-GPIO_27" pad="13"/>
+<connect gate="G$1" pin="P14-I2C_SDA" pad="14"/>
+<connect gate="G$1" pin="P15-I2C_SCL" pad="15"/>
+<connect gate="G$1" pin="P16-GPIO_23" pad="16"/>
+<connect gate="G$1" pin="P17-GPIO_13" pad="17"/>
+<connect gate="G$1" pin="P18-UART_RX" pad="18"/>
+<connect gate="G$1" pin="P19-READY" pad="19"/>
+<connect gate="G$1" pin="P2-SWD_CLK" pad="2"/>
+<connect gate="G$1" pin="P20-UART_TX" pad="20"/>
+<connect gate="G$1" pin="P21-GPIO_1" pad="21"/>
+<connect gate="G$1" pin="P22-GPIO_0" pad="22"/>
+<connect gate="G$1" pin="P23-GPIO_15" pad="23"/>
+<connect gate="G$1" pin="P24-GND" pad="24"/>
+<connect gate="G$1" pin="P25-GPIO_8" pad="25"/>
+<connect gate="G$1" pin="P26-SPIS_MISO" pad="26"/>
+<connect gate="G$1" pin="P27-SPIS_MOSI" pad="27"/>
+<connect gate="G$1" pin="P28-SPIS_CLK" pad="28"/>
+<connect gate="G$1" pin="P29-SPIS_CSN" pad="29"/>
+<connect gate="G$1" pin="P3-SWD_DIO" pad="3"/>
+<connect gate="G$1" pin="P30-GPIO_3" pad="30"/>
+<connect gate="G$1" pin="P31-GPIO_2" pad="31"/>
+<connect gate="G$1" pin="P32-BT_WAKE_UP" pad="32"/>
+<connect gate="G$1" pin="P33-RESETN" pad="33"/>
+<connect gate="G$1" pin="P34-GND" pad="34"/>
+<connect gate="G$1" pin="P4-GPIO_10" pad="4"/>
+<connect gate="G$1" pin="P5-GPIO_9" pad="5"/>
+<connect gate="G$1" pin="P6-GPIO_12" pad="6"/>
+<connect gate="G$1" pin="P7-GPIO_14" pad="7"/>
+<connect gate="G$1" pin="P8-GPIO_22" pad="8"/>
+<connect gate="G$1" pin="P9-GPIO_31" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
